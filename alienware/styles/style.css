@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Poppins:wght@100&family=Raleway:wght@100&display=swap');
+
+* {
+	font-family: "Poppins", sans-serif;
+}
+
+:root {
+	--primary-color: #F20544;
+	--secundary-color: #8C2656;
+	--third-color: #3F618C;
+}
+
+.container{
+	display: flex;
+	padding: 20px;
+	flex-direction: row-reverse;
+
+}
+
+.bloco{
+	width: 100px;
+	height: 100px;
+	border-radius: 10px;
+	background-color: var(--secundary-color);
+}
