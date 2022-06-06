@@ -47,29 +47,30 @@ body {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-	padding: 80px;
+	padding: 80px 80px 0px 80px;
 }
 
 .text-apresentation{
 	width: 850px;
 	height: 522px;
+	margin-top: 60px;
+	margin-left: 60px;
 }
 
 .block-text-one{
-	width: 800px;
-	height: 226px;
-	padding-top: 20px;
-	padding-left: 10px;
-	margin: 0px;
+	width: 700px;
+	height: 180px;
+	padding-top: 10px;
+	padding-left: 20px;
+	margin-top: 20px;
 	background-color: var(--Secundary-color);
 }
 .block-text-one > h2{
 	font-family: sans-serif;
 	font-weight: bold;
-	font-size: 86px;
+	font-size: 66px;
 	text-align: left;
-	
-	margin: 0px;
+	margin: auto;
 }
 
 /*------------------------------*/
@@ -83,16 +84,17 @@ body {
 .block-text-two > p{
 	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
-	font-size: 48px;
-	margin: 0px 0px 0px 15px;
+	font-size: 38px;
+	margin: 0px 0px 0px 25px;
 	color: var(--Color-font);
 }
 
 /*-----------------------------*/
 
+
 .btn-shop-now > a{
-	width: 250px;
-	height: 70px;
+	width: 230px;
+	height: 50px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -106,7 +108,7 @@ body {
 .btn-shop-now > a > p{
 	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
-	font-size: 28px;
+	font-size: 18px;
 	
 }
 
@@ -118,8 +120,9 @@ body {
 /*-------------------------------------------*/
 
 .imgBanner > img{
-	width: 700px;
-	height: 550px;
+	width: 750px;
+	height: 600px;
+	margin-top: -120px;
 	margin-left: 150px;
 }
 
@@ -127,8 +130,7 @@ body {
 
 .social-networks{
 	display: flex;
-	margin-top: -20px;
-	margin-left: 80px;
+	margin-left: 135px;
 	
 }
 
