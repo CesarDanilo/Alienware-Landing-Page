@@ -1,25 +1,138 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Poppins:wght@100&family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
 
 * {
-	font-family: "Poppins", sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 :root {
-	--primary-color: #F20544;
-	--secundary-color: #8C2656;
-	--third-color: #3F618C;
+	--Primaty-color: #141414;
+	--Secundary-color: #00fafafa; 
+	--Color-font: #ffff;
 }
 
-.container{
+body {
+	background-color: var(--Primaty-color);
+}
+
+/* titulo */
+.title {	
 	display: flex;
-	padding: 20px;
-	flex-direction: row-reverse;
-
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-end;
+	padding: 40px;
+	gap: 100px;
 }
 
-.bloco{
-	width: 100px;
-	height: 100px;
-	border-radius: 10px;
-	background-color: var(--secundary-color);
+/* titulo -> menu  */
+.Menu-bar{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	font-size: 18px;
+	color: var(--Color-font);
+	cursor: pointer;
+	
+}
+
+/* img do carrinho */
+.title > img{
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+}
+
+/* main */
+
+.apresentation{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 80px;
+}
+
+.text-apresentation{
+	width: 850px;
+	height: 522px;
+}
+
+.block-text-one{
+	width: 800px;
+	height: 226px;
+	padding-top: 20px;
+	padding-left: 10px;
+	margin: 0px;
+	background-color: var(--Secundary-color);
+}
+.block-text-one > h2{
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 86px;
+	text-align: left;
+	
+	margin: 0px;
+}
+
+/*------------------------------*/
+
+.block-text-two{
+	width: 850px;
+	height: 126px;
+	margin-top: 10px;
+}
+
+.block-text-two > p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	font-size: 48px;
+	margin: 0px 0px 0px 15px;
+	color: var(--Color-font);
+}
+
+/*-----------------------------*/
+
+.btn-shop-now > a{
+	width: 250px;
+	height: 70px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 100px;
+	gap: 30px;
+	background-color: var(--Secundary-color);
+	text-decoration: none;
+	color:inherit;
+}
+
+.btn-shop-now > a > p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	font-size: 28px;
+	
+}
+
+.btn-shop-now > a > img {
+	width: 30px;
+	height: 30px;
+}
+
+/*-------------------------------------------*/
+
+.imgBanner > img{
+	width: 700px;
+	height: 550px;
+	margin-left: 150px;
+}
+
+/*-------------------------------------------*/
+
+.social-networks{
+	display: flex;
+	margin-top: -20px;
+	margin-left: 80px;
+	
+}
+
+.social-networks > a > img{
+	width: 50px;
+	height: 50px;
 }
