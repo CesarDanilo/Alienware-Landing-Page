@@ -15,7 +15,7 @@ body {
 }
 
 /* titulo */
-.title {	
+.header {	
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -35,7 +35,7 @@ body {
 }
 
 /* img do carrinho */
-.title > img{
+.header > img{
 	width: 50px;
 	height: 50px;
 	cursor: pointer;
@@ -43,18 +43,25 @@ body {
 
 /* main */
 
-.apresentation{
+main{
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 	padding: 80px 80px 0px 80px;
 }
 
+/* main > text-apresentation*/
+
 .text-apresentation{
 	width: 850px;
 	height: 522px;
+
+	display: flex;
+	flex-direction: column;
+	
 	margin-top: 60px;
 	margin-left: 60px;
+
 }
 
 .block-text-one{
@@ -89,7 +96,7 @@ body {
 	color: var(--Color-font);
 }
 
-/*-----------------------------*/
+/* button shop now */
 
 
 .btn-shop-now > a{
@@ -117,24 +124,41 @@ body {
 	height: 30px;
 }
 
-/*-------------------------------------------*/
+/* SOCIAL NETWORKS */
 
-.imgBanner > img{
-	width: 750px;
-	height: 600px;
-	margin-top: -120px;
-	margin-left: 150px;
-}
-
-/*-------------------------------------------*/
 
 .social-networks{
-	display: flex;
-	margin-left: 135px;
+	width: 100px;
+	height: 50px;
 	
+	display: flex;
+	margin-top: 10px;	
 }
 
 .social-networks > a > img{
 	width: 50px;
 	height: 50px;
 }
+
+/* BANNER NOTEBOOK ALIENWARE*/
+
+.imgBanner {
+	width: 750px;
+	height: 600px;
+
+	display: flex;
+	flex-direction: column;
+
+	align-items: center;
+
+	margin-top: -80px;
+	margin-left: 100px;
+	
+}
+.imgBanner > img{
+	width: 650px;
+	height: 500px;
+}
+
+
+
