@@ -30,8 +30,15 @@ body {
 	font-weight: bold;
 	font-size: 18px;
 	color: var(--Color-font);
-	cursor: pointer;
-	
+	cursor: pointer;	
+}
+
+.Menu-bar:hover{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	font-size: 18px;
+	color: var(--Secundary-color);
+	cursor: pointer;	
 }
 
 /* img do carrinho */
@@ -39,6 +46,14 @@ body {
 	width: 50px;
 	height: 50px;
 	cursor: pointer;
+}
+
+.header > img:hover{
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+	background-color: var(--Secundary-color);
+	border-radius: 5px;
 }
 
 /* main */
@@ -97,29 +112,42 @@ main{
 }
 
 /* button shop now */
+.ShopNowLink{
+	text-decoration: none;
+	color: var(--Secundary-color);
+}
 
-
-.btn-shop-now > a{
+.btn-shop-now{
 	width: 230px;
 	height: 50px;
+	max-width: 230px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	margin-top: 100px;
 	gap: 30px;
-	background-color: var(--Secundary-color);
+	background-color: transparent;
 	text-decoration: none;
 	color:inherit;
+
 }
 
-.btn-shop-now > a > p{
+.btn-shop-now:hover{
+	color: var(--Primaty-color);
+	background-color: var(--Secundary-color);
+	
+	
+}
+
+
+.btn-shop-now  p{
 	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
 	font-size: 18px;
 	
 }
 
-.btn-shop-now > a > img {
+.btn-shop-now img {
 	width: 30px;
 	height: 30px;
 }
