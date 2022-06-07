@@ -120,21 +120,33 @@ main{
 .btn-shop-now{
 	width: 230px;
 	height: 50px;
+	
 	max-width: 230px;
+
 	display: flex;
 	justify-content: center;
+
 	align-items: center;
+
 	margin-top: 100px;
+
 	gap: 30px;
+
 	background-color: transparent;
+
 	text-decoration: none;
+
 	color:inherit;
+
+	background-color: var(--Secundary-color);
+	color: #141414;
+	
 
 }
 
 .btn-shop-now:hover{
-	color: var(--Primaty-color);
-	background-color: var(--Secundary-color);
+	color: var(--Color-font);
+	background-color: var(--Primaty-color);
 	
 	
 }
