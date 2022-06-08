@@ -14,5 +14,8 @@ git clone "https://github.com/CesarDanilo/Alienware-Landing-Page.git"
 
 <br>
 <br>
+ 
+![HTML](https://img.shields.io/badge/-HTML-05122A?style=for-the-badge&logo=HTML5)&nbsp;
+![CSS](https://img.shields.io/badge/-CSS-05122A?style=for-the-badge&logo=CSS3&logoColor=1572B6)&nbsp;
 
- <a href="https://www.linkedin.com/in/c%C3%A9sar-danilo-pal%C3%A1cios-ortega-396408153/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
+<a href="https://www.linkedin.com/in/c%C3%A9sar-danilo-pal%C3%A1cios-ortega-396408153/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
