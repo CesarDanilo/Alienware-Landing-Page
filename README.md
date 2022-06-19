@@ -2,23 +2,42 @@
 
 # _Alienware Landing Page_
 
+#### Landing page Alienware com uma pagina inicial e uma de apresentação do produto.
+
 <br>
+
+### _Página inicial_
+
 <br>
 
 ![AlienWare-page_one](https://user-images.githubusercontent.com/87550603/172075281-3c91c7ec-56ac-40f1-92cc-34b6f7e747eb.png)
+
 <br>
 
 - ✨layout responsivo ainda não adicionado ✨
 
+- ✨Funcionalidades dos botões ainda não adicionadas ✨
+
 <br>
 
-![page lofi music - page 2](https://user-images.githubusercontent.com/87550603/174502578-0f52e0e5-9971-472c-bf70-437623cbf33d.png)
+### _Página de apresentação do produto_
+
+<br>
+
+![page 2](https://user-images.githubusercontent.com/87550603/174502578-0f52e0e5-9971-472c-bf70-437623cbf33d.png)
+
+<br>
+<br>
+
+- ## _Download_
 
 ```sh
 
 git clone "https://github.com/CesarDanilo/Alienware-Landing-Page.git"
 
 ```
+
+<br>
 
 ![HTML](https://img.shields.io/badge/-HTML-05122A?style=for-the-badge&logo=HTML5)&nbsp;
 ![CSS](https://img.shields.io/badge/-CSS-05122A?style=for-the-badge&logo=CSS3&logoColor=1572B6)&nbsp;
