@@ -2,11 +2,11 @@
 
 # _Alienware Landing Page_
 
-#### Landing page Alienware com uma pagina inicial e uma de apresentação do produto.
+#### Landing page Alienware com pagina inicial e apresentação do produto.
 
 <br>
 
-### _Página inicial_
+- ### _Página inicial_
 
 <br>
 
@@ -20,13 +20,25 @@
 
 <br>
 
-### _Página de apresentação do produto_
+- ### _Página de apresentação do produto_
 
 <br>
 
 ![page 2](https://user-images.githubusercontent.com/87550603/174502578-0f52e0e5-9971-472c-bf70-437623cbf33d.png)
 
 <br>
+<br>
+
+ ## _Fontes_
+ - font-family: “Poppins”, Sans-serif ;
+ - font-size: {15, 24, 32,  40, 48, 96 }
+
+<br>
+ 
+ ## _Cores_
+ - #00FAFA
+ - #141414
+
 <br>
 
 - ## _Download_
