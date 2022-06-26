@@ -15,7 +15,7 @@ html{
 }
 
 body{
-	
+	display: flex;
 }
 
 .primary-img {
@@ -52,6 +52,32 @@ body{
 	font-weight: bold;
 	font-size: 18px;
 
+	color: var(--Primaty-color);
+
+}
+
+.BottonShopNow img {
+	height: 30px;
+	width: 30px;
+	margin-left: 15px;
+}
+
+
+.ApresentationsM17 {
+	height: 100px;
+	width: 785px;
+
+	margin-top: 150px;
+	margin-left: 200px;
+
+	background-color: var(--Secundary-color);
+}
+
+.ApresentationsM17 h1{
+	margin-left: 130px;
+
+	font-weight: bold;
+	
 	color: var(--Primaty-color);
 
 }
