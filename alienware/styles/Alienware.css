@@ -70,14 +70,24 @@ body{
 	margin-top: 150px;
 	margin-left: 200px;
 
+	display: flex;
+
 	background-color: var(--Secundary-color);
 }
 
 .ApresentationsM17 h1{
 	margin-left: 130px;
-
+	text-align: auto;
+	
 	font-weight: bold;
 	
 	color: var(--Primaty-color);
 
+}
+
+.descricao {
+	margin-top: 50px;
+	margin-left: 200px;
+
+	color: var(--Color-font);
 }
